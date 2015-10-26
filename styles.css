@@ -1,0 +1,127 @@
+
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	margin: 0px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+table {
+	padding: 5px;
+	max-width: 970px;
+}
+h1 {
+	color:#244178;
+	font-size: 24px;
+}
+h2 {
+	color:#244178;
+	font-size: 20px;
+}
+.MainTable {
+	width: 960px;
+	top: auto;
+}
+#MainText {
+	align: left;
+	max-width:500px;
+}
+.TopRowLogoHeader {
+	height: 30px;
+}
+.BannerRow {
+	height: 200px;
+}
+.NavigationRow {
+	height: 20px;
+}
+.ContentRow {
+	height: auto;
+	text-align: justify;
+	font-size: 16px;
+	border-top-width: 0px;
+}
+.FooterRow {
+	height: 20px;
+	text-align: center;
+	vertical-align: baseline;
+	font-size: 16px;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #000000;
+}
+.SubFooterRow {
+	height: 20px;
+	text-align: center;
+	font-size: 10px;
+}
+.NavigationCell {
+	width: 200px;
+	margin: 0px;
+	padding: 0px;
+	height: 20px;
+	text-align: center;
+}
+.NavigationTable {
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #000000;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #000000;
+}
+.ContentTable {
+	height: auto;
+	width: 950px;
+}
+.LeftContentTable {
+	width: 300px;
+}
+.ContentImageColumn {
+	width: 300px;
+	vertical-align: top;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #000000;
+	text-align: center;
+}
+.ContentText Column {
+	width: 500px;
+	text-align: left;
+	vertical-align: top;
+}
+.imageContainer {
+	background-color: #FFFFFF;
+	border: 2px solid #CCCCCC;
+	font-size: 10px;
+	text-align: left;
+	vertical-align: top;
+}
+.PageTitleTextStyle {
+	font-size: 16px;
+	font-weight: bold;
+}
+.PageSubTitleTextStyle {
+	font-size: 16px;
+	font-weight: bold;
+}
+a:link {
+	color: #000000;
+	text-decoration: none;
+}
+a:visited {
+	color: #000000;
+	text-decoration: none;
+}
+a:hover {
+	color: #000000;
+	text-decoration: underline;
+}
+a:active {
+	color: #FFFFFF;
+	text-decoration: none;
+	background-color: #333333;
+}
+.LeftContentTable tr td table tr .style2 p strong {
+	color: #303397;
+}
